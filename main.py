@@ -19,7 +19,7 @@ else:
 scatterPlot, linePlot, maps, threeDPlot, tables = st.tabs([
     "Correlation",
     "Line Chart",
-    "Map",
+    "Interactive Map",
     "3D Chart",
     "Tables"
 ])

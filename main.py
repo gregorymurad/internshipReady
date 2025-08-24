@@ -13,6 +13,7 @@
 # - Download filtered data
 # -------------------------------------------------------------
 
+
 import io
 import json
 import math
@@ -34,7 +35,7 @@ st.set_page_config(
 # --------------------------
 
 NUMERIC_PARAM_CANDIDATES = [
-    ("temperature", "°C"),
+    ("temperature", "°F"),
     ("salinity", "psu"),
     ("dissolved_oxygen", "mg/L"),
     ("do", "mg/L"),

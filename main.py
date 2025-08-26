@@ -51,7 +51,7 @@ with maps:
                              lat="latitude",
                              lon="longitude",
                              mapbox_style="open-street-map",
-                             zoom=17,
+                             zoom=20,
                              hover_data=df)
     st.plotly_chart(fig3)
 
@@ -61,7 +61,7 @@ with threeDPlot:
                          x="longitude",
                          y="latitude",
                          z="Total Water Column (m)")
-    fig4.update_scenes(zaxis_autorange="reversed")
+    fig4.update_scenes(zaxis_autorange="reversed"),
     st.plotly_chart(fig4)
 
 with tables:

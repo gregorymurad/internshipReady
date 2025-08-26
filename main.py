@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-st.set_page_config(page_title="Dashboard",
+st.set_page_config(page_title="Water Quality Dashboard",
                    layout="wide")
 
 st.title("Water Quality Data Dashboard")

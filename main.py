@@ -28,7 +28,7 @@ with scatterPlot:
     st.subheader("Scatter Plots for the Water Parameters")
     fig = px.scatter(df,
                      x="Salinity (ppt)",
-                     y="Temperature (C)",
+                     y="Temperature (Celsius)", #Added the full name of the temperature scale
                      color = "ODO (mg/L)")
     st.plotly_chart(fig)
 

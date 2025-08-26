@@ -28,7 +28,7 @@ with scatterPlot:
     st.subheader("Scatter Plots for the Water Parameters")
     fig = px.scatter(df,
                      x="Salinity (ppt)",
-                     y="Temperature (C)",
+                     y="Temperature (F)",
                      color = "ODO (mg/L)")
     st.plotly_chart(fig)
 
@@ -51,7 +51,7 @@ with maps:
                              lat="latitude",
                              lon="longitude",
                              mapbox_style="open-street-map",
-                             zoom=17,
+                             zoom=20,
                              hover_data=df)
     st.plotly_chart(fig3)
 

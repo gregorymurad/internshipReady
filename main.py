@@ -51,8 +51,8 @@ with maps:
                              lat="latitude",
                              lon="longitude",
                              mapbox_style="open-street-map",
-                             zoom=17,
-                             hover_data=df)
+                             zoom=21,
+                           hover_data=df)
     st.plotly_chart(fig3)
 
 with threeDPlot:
@@ -69,4 +69,4 @@ with tables:
     st.dataframe(df)
     st.divider()
     st.subheader("Descriptive Statistics")
-    st.dataframe(df.describe())
+    st.dataframe(df.describe()

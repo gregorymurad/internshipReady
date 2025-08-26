@@ -68,5 +68,5 @@ with tables:
     st.subheader("Raw Data")
     st.dataframe(df)
     st.divider()
-    st.subheader("Descriptive Statistics")
+    st.subheader("Descriptive Statistic")
     st.dataframe(df.describe())

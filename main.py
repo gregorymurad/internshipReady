@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_title="Dashboard",
                    layout="wide")
 
-st.title("Water Quality Data Dashboard")
+st.title("Water Quality Data Dashboard:")
 st.subheader("Visualization Tool for Biscayne Bay Water Quality using Aquatic Robots")
 
 uploaded_file = st.sidebar.file_uploader("Choose a csv file")

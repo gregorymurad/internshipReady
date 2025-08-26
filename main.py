@@ -48,8 +48,8 @@ with linePlot:
 with maps:
     st.subheader("Maps")
     fig3 = px.scatter_mapbox(df,
-                             lat="latitude",
-                             lon="longitude",
+                             lat="LATITUDE",
+                             lon="LONGITUDE",
                              mapbox_style="open-street-map",
                              zoom=17,
                              hover_data=df)
@@ -58,8 +58,8 @@ with maps:
 with threeDPlot:
     st.subheader("3D Visualization")
     fig4 = px.scatter_3d(df,
-                         x="longitude",
-                         y="latitude",
+                         x="LONGITUDE",
+                         y="LATITUDE",
                          z="Total Water Column (m)")
     fig4.update_scenes(zaxis_autorange="reversed")
     st.plotly_chart(fig4)

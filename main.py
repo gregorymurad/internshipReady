@@ -50,8 +50,8 @@ with maps:
     fig3 = px.scatter_mapbox(df,
                              lat="latitude",
                              lon="longitude",
-                             mapbox_style="open-street-map",
-                             zoom=17,
+                             mapbox_style="carto-darkmatter",
+                             zoom=20,
                              hover_data=df)
     st.plotly_chart(fig3)
 

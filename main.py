@@ -51,7 +51,7 @@ with maps:
                              lat="latitude",
                              lon="longitude",
                              mapbox_style="open-street-map",
-                             zoom=17,
+                             zoom=20,
                              hover_data=df)
     st.plotly_chart(fig3)
 

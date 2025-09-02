@@ -70,4 +70,4 @@ with tables:
     st.divider()
     st.subheader("Descriptive Statistics")
     st.dataframe(df.describe())
-$ vi main.py
+

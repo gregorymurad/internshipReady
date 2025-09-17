@@ -1,3 +1,5 @@
+"""Week 2 Python Review"""
+
 message = "Welcome to Internship Ready!"
 print(message, "FIU", 2025)
 print(type(message))
